@@ -11,7 +11,7 @@ cipher = file.read()
 lenth = len(cipher)
 key = 0
 while key <= 26:
-    plain =''
+    plain = ''
     for i in range(lenth):
         number = 0
         number = ord(cipher[i])
